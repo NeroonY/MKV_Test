@@ -4,6 +4,7 @@
 import os, sys, fnmatch
 import subprocess 
 import itertools
+from config import * 
 
 # TODO:
 # vorbis audio(Codec ID: A_VORBIS) - нет строки DUR_STR, 
@@ -18,25 +19,19 @@ CONSOLE_ENCODING = "cp1251" #win console
 
 MKV_MASK = "*.mkv"
 
-VIDEO_FOLDER = r"."
-VIDEO_FOLDER = r"D:\video\cinema"
-# VIDEO_FOLDER = ur"G:\Video\Cinema\Bad Source"
-
-MKVINFO_PATH = r"D:\Programs\mkvtoolnix\mkvinfo.exe"
-
 # MISC_ATTRIBS= ' -r temp.txt --output-charset UTF-8 --ui-language "EN"'
 MISC_ATTRIBS= ' --output-charset UTF-8 --ui-language "EN"'
 
 cmd_pattern = MKVINFO_PATH + MISC_ATTRIBS + ' "%s"'
 
-#
+#mkvinfo output patterns
 APP_STR = "| + Writing application: "
 TRACK_STR = "|  + Track type: "
 AUDIO_TRACK_STR = "|  + Track type: audio"
 DUR_STR = "|  + Default duration: "
 
+#Checking values
 BAD_VERSION = "mkvmerge v4.1.0"
-
 GOOD_TIMING = "32.000ms"
 
 
