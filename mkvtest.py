@@ -13,7 +13,7 @@ from config import *
 
 
 SHOW_FULL_INFO = False
-# SHOW_FULL_INFO = True
+SHOW_FULL_INFO = True
 
 CONSOLE_ENCODING = "cp1251" #win console
 
@@ -87,12 +87,18 @@ def Get_mkv_info(full_fname):
 
 	return mkv_info
 
+def Check_for_WDTV(file_info):
+	ver_ok = not (BAD_VERSION in file_info.ver)
+	tracks_ok = file_info.audio_tracks and all(map(lambda t: GOOD_TIMING in t, file_info.audio_tracks))
+	is_ok = ver_ok and tracks_ok
+	return is_ok, ver_ok,tracks_ok
+
+
 def Check_files(files_info):
 	for info in files_info:
-		ver_ok = not (BAD_VERSION in info.ver)
-		tracks_ok = info.audio_tracks and all(map(lambda t: GOOD_TIMING in t, info.audio_tracks))
+		is_ok,ver_ok,tracks_ok = Check_for_WDTV(info)
 
-		if ver_ok and tracks_ok:
+		if is_ok:
 			zprint("OK " + info.filename)
 		else:
 			zprint("BAD " + info.filename)
