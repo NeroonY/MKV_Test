@@ -8,7 +8,7 @@ TEST_FOLDER_GOOD  = ur".\tests\good"
 TEST_FOLDER_BAD  = ur".\tests\bad"
 
 TEST_FILE = ur".\tests\good\good1.log"
-LOG_MASK = "*.log"
+LOG_MASK = "*.txt"
 
 class mkv_short_info_TestCase(unittest.TestCase):
 	def test_init(self):
