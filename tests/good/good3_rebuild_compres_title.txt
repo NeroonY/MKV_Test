@@ -1,0 +1,89 @@
+﻿+ EBML head
+|+ Doc type: matroska
+|+ Doc type version: 1
+|+ Doc type read version: 1
++ Segment, size 1658870297
+|+ Seek head (subentries will be skipped)
+|+ EbmlVoid (размер: 4027)
+|+ Segment information
+| + Timecode scale: 1000000
+| + Muxing application: libebml v0.7.7 + libmatroska v0.8.1
+| + Writing application: mkvmerge v2.6.0 ('Kelly watch the Stars') built on Mar 24 2009 15:23:17
+| + Duration: 3695.731s (01:01:35.731)
+| + Date: Thu Sep 19 14:58:25 2013 UTC
+| + Segment UID: 0xae 0xb9 0x1b 0x06 0x6f 0x61 0x35 0x43 0x9e 0xa3 0x1e 0x22 0x49 0xa6 0x88 0x00
+|+ Segment tracks
+| + A track
+|  + Track number: 1 (track ID for mkvmerge & mkvextract: 0)
+|  + Track UID: 1
+|  + Track type: video
+|  + Enabled: 1
+|  + Default flag: 1
+|  + Forced flag: 0
+|  + Lacing flag: 0
+|  + MinCache: 1
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: V_MPEG4/ISO/AVC
+|  + Codec decode all: 1
+|  + CodecPrivate, length 42 (h.264 profile: High @L4.1)
+|  + Default duration: 41.708ms (23.976 frames/fields per second for a video track)
+|  + Language: eng
+|  + Video track
+|   + Pixel width: 1280
+|   + Pixel height: 720
+|   + Interlaced: 0
+|   + Display width: 1280
+|   + Display height: 720
+| + A track
+|  + Track number: 2 (track ID for mkvmerge & mkvextract: 1)
+|  + Track UID: 2449544368
+|  + Track type: audio
+|  + Enabled: 1
+|  + Default flag: 1
+|  + Forced flag: 0
+|  + Lacing flag: 1
+|  + MinCache: 0
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: A_AC3
+|  + Codec decode all: 1
+|  + Default duration: 32.000ms (31.250 frames/fields per second for a video track)
+|  + Language: rus
+|  + Audio track
+|   + Sampling frequency: 48000
+|   + Channels: 6
+| + A track
+|  + Track number: 3 (track ID for mkvmerge & mkvextract: 2)
+|  + Track UID: 1077086350
+|  + Track type: audio
+|  + Enabled: 1
+|  + Default flag: 0
+|  + Forced flag: 0
+|  + Lacing flag: 1
+|  + MinCache: 0
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: A_AC3
+|  + Codec decode all: 1
+|  + Default duration: 32.000ms (31.250 frames/fields per second for a video track)
+|  + Language: eng
+|  + Audio track
+|   + Sampling frequency: 48000
+|   + Channels: 6
+| + A track
+|  + Track number: 4 (track ID for mkvmerge & mkvextract: 3)
+|  + Track UID: 2519501972
+|  + Track type: subtitles
+|  + Enabled: 1
+|  + Default flag: 1
+|  + Forced flag: 0
+|  + Lacing flag: 0
+|  + MinCache: 0
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: S_TEXT/UTF8
+|  + Codec decode all: 1
+|  + Language: eng
+|+ EbmlVoid (размер: 1024)
+|+ Cluster

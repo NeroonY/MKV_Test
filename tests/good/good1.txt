@@ -1,0 +1,186 @@
+﻿+ EBML head
+|+ EBML version: 1
+|+ EBML read version: 1
+|+ EBML maximum ID length: 4
+|+ EBML maximum size length: 8
+|+ Doc type: matroska
+|+ Doc type version: 4
+|+ Doc type read version: 2
++ Segment, size 3125698835
+|+ Seek head (subentries will be skipped)
+|+ EbmlVoid (размер: 4029)
+|+ Segment information
+| + Timecode scale: 1000000
+| + Muxing application: libebml v1.3.0 + libmatroska v1.4.0
+| + Writing application: mkvmerge v5.9.0 ('On The Loose') built on Dec 15 2012 16:39:58
+| + Duration: 6861.952s (01:54:21.952)
+| + Date: Tue Jun 18 17:43:27 2013 UTC
+| + Title: -=POTROKS=-
+| + Segment UID: 0xa0 0xf6 0xf4 0xb1 0x44 0x39 0xcc 0x62 0x85 0x4f 0x12 0xd3 0x01 0xaa 0x06 0x3a
+|+ Segment tracks
+| + A track
+|  + Track number: 1 (track ID for mkvmerge & mkvextract: 0)
+|  + Track UID: 1
+|  + Track type: video
+|  + Lacing flag: 0
+|  + MinCache: 1
+|  + Codec ID: V_MPEG4/ISO/AVC
+|  + CodecPrivate, length 43 (h.264 profile: High @L4.1)
+|  + Default duration: 41.708ms (23.976 frames/fields per second for a video track)
+|  + Name: Jack The Giant Slayer
+|  + Video track
+|   + Pixel width: 1056
+|   + Pixel height: 440
+|   + Display width: 1056
+|   + Display height: 440
+| + A track
+|  + Track number: 2 (track ID for mkvmerge & mkvextract: 1)
+|  + Track UID: 1440186294
+|  + Track type: audio
+|  + Forced flag: 1
+|  + Codec ID: A_AC3
+|  + Default duration: 32.000ms (31.250 frames/fields per second for a video track)
+|  + Language: rus
+|  + Name: Dub | DD 5.1 @ 448 kbps - Blu-Ray CEE
+|  + Audio track
+|   + Sampling frequency: 48000
+|   + Channels: 6
+| + A track
+|  + Track number: 3 (track ID for mkvmerge & mkvextract: 2)
+|  + Track UID: 3349359249
+|  + Track type: audio
+|  + Default flag: 0
+|  + Codec ID: A_AC3
+|  + Default duration: 32.000ms (31.250 frames/fields per second for a video track)
+|  + Name: Original | DD 5.1 @ 448 kbps
+|  + Audio track
+|   + Sampling frequency: 48000
+|   + Channels: 6
+| + A track
+|  + Track number: 4 (track ID for mkvmerge & mkvextract: 3)
+|  + Track UID: 451408824
+|  + Track type: subtitles
+|  + Default flag: 0
+|  + Lacing flag: 0
+|  + Codec ID: S_TEXT/UTF8
+| + A track
+|  + Track number: 5 (track ID for mkvmerge & mkvextract: 4)
+|  + Track UID: 3606242716
+|  + Track type: subtitles
+|  + Forced flag: 1
+|  + Lacing flag: 0
+|  + Codec ID: S_TEXT/UTF8
+|  + Language: rus
+|  + Name: Forced
+| + A track
+|  + Track number: 6 (track ID for mkvmerge & mkvextract: 5)
+|  + Track UID: 2108260285
+|  + Track type: subtitles
+|  + Default flag: 0
+|  + Lacing flag: 0
+|  + Codec ID: S_TEXT/UTF8
+|  + Language: rus
+|+ EbmlVoid (размер: 1207)
+|+ Chapters
+| + EditionEntry
+|  + EditionFlagHidden: 0
+|  + EditionFlagDefault: 0
+|  + EditionUID: 3033370244
+|  + ChapterAtom
+|   + ChapterUID: 3149642684
+|   + ChapterTimeStart: 00:00:00.000000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 00:00:00.000
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642685
+|   + ChapterTimeStart: 00:10:21.371000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 00:10:21.371
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642686
+|   + ChapterTimeStart: 00:19:23.746000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 00:19:23.746
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642687
+|   + ChapterTimeStart: 00:29:52.207000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 00:29:52.207
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642688
+|   + ChapterTimeStart: 00:38:55.375000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 00:38:55.375
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642689
+|   + ChapterTimeStart: 00:49:24.879000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 00:49:24.879
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642690
+|   + ChapterTimeStart: 00:59:35.489000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 00:59:35.489
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642691
+|   + ChapterTimeStart: 01:09:26.287000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 01:09:26.287
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642692
+|   + ChapterTimeStart: 01:20:39.168000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 01:20:39.168
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642693
+|   + ChapterTimeStart: 01:29:51.303000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 01:29:51.303
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642694
+|   + ChapterTimeStart: 01:39:02.812000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 01:39:02.812
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3149642695
+|   + ChapterTimeStart: 01:45:57.726000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 01:45:57.726
+|    + ChapterLanguage: eng
+|+ EbmlVoid (размер: 101)
+|+ Cluster

@@ -1,0 +1,415 @@
+﻿+ EBML head
+|+ Doc type: matroska
+|+ Doc type version: 2
+|+ Doc type read version: 2
++ Segment, size 2300000281
+|+ Seek head (subentries will be skipped)
+|+ EbmlVoid (размер: 3980)
+|+ Segment information
+| + Timecode scale: 1000000
+| + Muxing application: libebml v0.7.7 + libmatroska v0.8.1
+| + Writing application: mkvmerge v2.8.0 ('The Tree') built on May 14 2009 09:28:39
+| + Duration: 6362.475s (01:46:02.475)
+| + Date: Tue May 26 22:02:32 2009 UTC
+| + Title: Inkheart (2008) BDRip AVC.AAC - tRuAVC
+| + Segment UID: 0x81 0xd8 0xdf 0x5f 0x49 0x5d 0xef 0x50 0xa4 0xd0 0x86 0xf5 0xad 0x81 0x47 0xf9
+|+ Segment tracks
+| + A track
+|  + Track number: 1 (track ID for mkvmerge & mkvextract: 0)
+|  + Track UID: 1
+|  + Track type: video
+|  + Enabled: 1
+|  + Default flag: 1
+|  + Forced flag: 0
+|  + Lacing flag: 0
+|  + MinCache: 1
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: V_MPEG4/ISO/AVC
+|  + Codec decode all: 1
+|  + CodecPrivate, length 42 (h.264 profile: High @L3.2)
+|  + Default duration: 41.708ms (23.976 frames/fields per second for a video track)
+|  + Language: eng
+|  + Name: x264-1168x496
+|  + Video track
+|   + Pixel width: 1168
+|   + Pixel height: 496
+|   + Interlaced: 0
+|   + Display width: 73
+|   + Display height: 31
+| + A track
+|  + Track number: 2 (track ID for mkvmerge & mkvextract: 1)
+|  + Track UID: 3683191177
+|  + Track type: audio
+|  + Enabled: 1
+|  + Default flag: 1
+|  + Forced flag: 0
+|  + Lacing flag: 1
+|  + MinCache: 0
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: A_AAC
+|  + Codec decode all: 1
+|  + CodecPrivate, length 5
+|  + Default duration: 22.244ms (44.955 frames/fields per second for a video track)
+|  + Language: rus
+|  + Name: Russian - Dubbing
+|  + Audio track
+|   + Sampling frequency: 48000
+|   + Channels: 6
+| + A track
+|  + Track number: 3 (track ID for mkvmerge & mkvextract: 2)
+|  + Track UID: 3999573937
+|  + Track type: audio
+|  + Enabled: 1
+|  + Default flag: 0
+|  + Forced flag: 0
+|  + Lacing flag: 1
+|  + MinCache: 0
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: A_AAC
+|  + Codec decode all: 1
+|  + CodecPrivate, length 5
+|  + Default duration: 21.333ms (46.875 frames/fields per second for a video track)
+|  + Language: rus
+|  + Name: Russian - MVO
+|  + Audio track
+|   + Sampling frequency: 48000
+|   + Channels: 6
+| + A track
+|  + Track number: 4 (track ID for mkvmerge & mkvextract: 3)
+|  + Track UID: 256574612
+|  + Track type: audio
+|  + Enabled: 1
+|  + Default flag: 0
+|  + Forced flag: 0
+|  + Lacing flag: 1
+|  + MinCache: 0
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: A_AAC
+|  + Codec decode all: 1
+|  + CodecPrivate, length 5
+|  + Default duration: 21.333ms (46.875 frames/fields per second for a video track)
+|  + Language: eng
+|  + Name: English
+|  + Audio track
+|   + Sampling frequency: 48000
+|   + Channels: 6
+| + A track
+|  + Track number: 5 (track ID for mkvmerge & mkvextract: 4)
+|  + Track UID: 708445624
+|  + Track type: audio
+|  + Enabled: 1
+|  + Default flag: 0
+|  + Forced flag: 0
+|  + Lacing flag: 1
+|  + MinCache: 0
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: A_AAC
+|  + Codec decode all: 1
+|  + CodecPrivate, length 5
+|  + Default duration: 21.333ms (46.875 frames/fields per second for a video track)
+|  + Language: ger
+|  + Name: German
+|  + Audio track
+|   + Sampling frequency: 48000
+|   + Channels: 6
+| + A track
+|  + Track number: 6 (track ID for mkvmerge & mkvextract: 5)
+|  + Track UID: 4229013438
+|  + Track type: subtitles
+|  + Enabled: 1
+|  + Default flag: 0
+|  + Forced flag: 0
+|  + Lacing flag: 0
+|  + MinCache: 0
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: S_VOBSUB
+|  + Codec decode all: 1
+|  + CodecPrivate, length 347
+|  + Language: eng
+|  + Name: English VobSub
+|  + Content encodings
+|   + Content encoding
+|    + Order: 0
+|    + Scope: 1 (1: all frames)
+|    + Type: 0 (compression)
+|    + Content compression
+|     + Algorithm: 0 (ZLIB)
+| + A track
+|  + Track number: 7 (track ID for mkvmerge & mkvextract: 6)
+|  + Track UID: 107862418
+|  + Track type: subtitles
+|  + Enabled: 1
+|  + Default flag: 0
+|  + Forced flag: 0
+|  + Lacing flag: 0
+|  + MinCache: 0
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: S_VOBSUB
+|  + Codec decode all: 1
+|  + CodecPrivate, length 347
+|  + Language: ger
+|  + Name: German VobSub
+|  + Content encodings
+|   + Content encoding
+|    + Order: 0
+|    + Scope: 1 (1: all frames)
+|    + Type: 0 (compression)
+|    + Content compression
+|     + Algorithm: 0 (ZLIB)
+| + A track
+|  + Track number: 8 (track ID for mkvmerge & mkvextract: 7)
+|  + Track UID: 1387736977
+|  + Track type: subtitles
+|  + Enabled: 1
+|  + Default flag: 0
+|  + Forced flag: 0
+|  + Lacing flag: 0
+|  + MinCache: 0
+|  + Timecode scale: 1
+|  + Max BlockAddition ID: 0
+|  + Codec ID: S_VOBSUB
+|  + Codec decode all: 1
+|  + CodecPrivate, length 347
+|  + Language: spa
+|  + Name: Spanish VobSub
+|  + Content encodings
+|   + Content encoding
+|    + Order: 0
+|    + Scope: 1 (1: all frames)
+|    + Type: 0 (compression)
+|    + Content compression
+|     + Algorithm: 0 (ZLIB)
+|+ EbmlVoid (размер: 1024)
+|+ Attachments
+| + Attached
+|  + File name: cover.jpg
+|  + Mime type: image/jpeg
+|  + File data, size: 47201
+|  + File UID: 3939605386
+|  + File description: Cover Picture
+|+ Chapters
+| + EditionEntry
+|  + EditionFlagHidden: 0
+|  + EditionFlagDefault: 0
+|  + EditionUID: 3171435402
+|  + ChapterAtom
+|   + ChapterUID: 3742964389
+|   + ChapterTimeStart: 00:00:00.054000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: 00:00:00.054
+|    + ChapterLanguage: eng
+| + EditionEntry
+|  + EditionFlagHidden: 0
+|  + EditionFlagDefault: 0
+|  + EditionUID: 641404039
+|  + ChapterAtom
+|   + ChapterUID: 400560281
+|   + ChapterTimeStart: 00:00:00.000000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 1
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 1483421586
+|   + ChapterTimeStart: 00:04:15.200000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 2
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 756087207
+|   + ChapterTimeStart: 00:09:33.840000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 3
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 217386892
+|   + ChapterTimeStart: 00:12:57.560000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 4
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3299510969
+|   + ChapterTimeStart: 00:16:07.200000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 5
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 1306213266
+|   + ChapterTimeStart: 00:19:58.640000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 6
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 779705250
+|   + ChapterTimeStart: 00:25:30.040000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 7
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 1964566918
+|   + ChapterTimeStart: 00:29:15.640000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 8
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 2781812141
+|   + ChapterTimeStart: 00:33:33.200000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 9
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3451476646
+|   + ChapterTimeStart: 00:38:40.520000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 10
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 2993363857
+|   + ChapterTimeStart: 00:44:20.400000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 11
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 1547181472
+|   + ChapterTimeStart: 00:46:41.200000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 12
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3657538696
+|   + ChapterTimeStart: 00:50:31.560000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 13
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 483095740
+|   + ChapterTimeStart: 00:55:02.880000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 14
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 2983476394
+|   + ChapterTimeStart: 00:58:17.000000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 15
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 546973345
+|   + ChapterTimeStart: 01:01:50.600000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 16
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 2860370875
+|   + ChapterTimeStart: 01:04:38.280000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 17
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 58617530
+|   + ChapterTimeStart: 01:08:32.560000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 18
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3950378905
+|   + ChapterTimeStart: 01:12:48.920000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 19
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 251293616
+|   + ChapterTimeStart: 01:17:01.880000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 20
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3601486230
+|   + ChapterTimeStart: 01:20:41.080000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 21
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 3666779065
+|   + ChapterTimeStart: 01:24:09.600000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 22
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 1926789769
+|   + ChapterTimeStart: 01:28:24.720000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 23
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 449531304
+|   + ChapterTimeStart: 01:31:25.480000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 24
+|    + ChapterLanguage: eng
+|  + ChapterAtom
+|   + ChapterUID: 4244704161
+|   + ChapterTimeStart: 01:34:14.600000000
+|   + ChapterFlagHidden: 0
+|   + ChapterFlagEnabled: 1
+|   + ChapterDisplay
+|    + ChapterString: Chapter 25
+|    + ChapterLanguage: eng
+|+ EbmlVoid (размер: 101)
+|+ Cluster

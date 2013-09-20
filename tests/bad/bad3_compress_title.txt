@@ -1,0 +1,77 @@
+﻿+ EBML head
+|+ EBML version: 1
+|+ EBML read version: 1
+|+ EBML maximum ID length: 4
+|+ EBML maximum size length: 8
+|+ Doc type: matroska
+|+ Doc type version: 2
+|+ Doc type read version: 2
++ Segment, size 1657630719
+|+ Seek head (subentries will be skipped)
+|+ EbmlVoid (размер: 4044)
+|+ Segment information
+| + Timecode scale: 1000000
+| + Muxing application: libebml v1.2.2 + libmatroska v1.3.0
+| + Writing application: mkvmerge v5.0.1 ('Es ist Sommer') built on Oct  9 2011 11:55:43
+| + Duration: 3695.731s (01:01:35.731)
+| + Date: Thu Oct 13 12:20:48 2011 UTC
+| + Segment UID: 0x92 0x12 0xb8 0xed 0x98 0x8d 0x20 0x03 0xa1 0x27 0x42 0xe1 0x15 0x71 0xca 0x16
+|+ Segment tracks
+| + A track
+|  + Track number: 1 (track ID for mkvmerge & mkvextract: 0)
+|  + Track UID: 1
+|  + Track type: video
+|  + Lacing flag: 0
+|  + MinCache: 1
+|  + Codec ID: V_MPEG4/ISO/AVC
+|  + CodecPrivate, length 42 (h.264 profile: High @L4.1)
+|  + Default duration: 41.708ms (23.976 frames/fields per second for a video track)
+|  + Video track
+|   + Pixel width: 1280
+|   + Pixel height: 720
+|   + Display width: 1280
+|   + Display height: 720
+|  + Content encodings
+|   + Content encoding
+|    + Content compression
+|     + Algorithm: 3 (header removal)
+|     + Settings: длина 1, данные: 0x00
+| + A track
+|  + Track number: 2 (track ID for mkvmerge & mkvextract: 1)
+|  + Track UID: 2449544368
+|  + Track type: audio
+|  + Codec ID: A_AC3
+|  + Default duration: 32.000ms (31.250 frames/fields per second for a video track)
+|  + Language: rus
+|  + Audio track
+|   + Sampling frequency: 48000
+|   + Channels: 6
+|  + Content encodings
+|   + Content encoding
+|    + Content compression
+|     + Algorithm: 3 (header removal)
+|     + Settings: длина 2, данные: 0x0b 0x77
+| + A track
+|  + Track number: 3 (track ID for mkvmerge & mkvextract: 2)
+|  + Track UID: 1077086350
+|  + Track type: audio
+|  + Default flag: 0
+|  + Codec ID: A_AC3
+|  + Default duration: 32.000ms (31.250 frames/fields per second for a video track)
+|  + Audio track
+|   + Sampling frequency: 48000
+|   + Channels: 6
+|  + Content encodings
+|   + Content encoding
+|    + Content compression
+|     + Algorithm: 3 (header removal)
+|     + Settings: длина 2, данные: 0x0b 0x77
+| + A track
+|  + Track number: 4 (track ID for mkvmerge & mkvextract: 3)
+|  + Track UID: 2519501972
+|  + Track type: subtitles
+|  + Default flag: 0
+|  + Lacing flag: 0
+|  + Codec ID: S_TEXT/UTF8
+|+ EbmlVoid (размер: 1196)
+|+ Cluster
